@@ -5,15 +5,67 @@
 }
 
 
-
-body {
+body.home {
     background-image: url("background.jpg");
     background-repeat: no-repeat;
+    background-size: fill;
+}
+
+body.stage {
+    background-image: url("background2.jpg");
+    background-repeat: no-repeat;
   }
+
+body.verslag {
+    background-image: url("background3.jpg");
+    background-repeat: no-repeat;
+}
+
+body.repo {
+    background-image: url("background4.jpg");
+    background-repeat: no-repeat;
+}
+
+body.huis {
+    background-image: url("background5.jpg");
+    background-repeat: no-repeat;
+}
+
+body.analyse {
+    background-image: url("background7.jpg");
+    background-repeat: no-repeat;
+}
+
+body.foire {
+    background-image: url("background8.jpg");
+    background-repeat: no-repeat;
+  }
+
+body.tapa{
+    background-image: url("background9.jpg");
+    background-repeat: no-repeat;
+}
+
+body.app{
+    background-image: url("background10.jpg");
+    background-size: fill;
+}
+
+body.study{
+    background-image: url("background11.jpg");
+    background-size: fill;
+    background-repeat: no-repeat;
+}
 
 ul{
     float: right;
     list-style-type: none;
+}
+
+h1{
+    color: white;
+    padding-left: 15px;
+    padding-top: 5px;
 }
 
 ul li{
@@ -23,6 +75,7 @@ ul li{
 ul li{
     color: rgb(255,255,255);
     padding: 5px 20px;
+    padding-top: 5px;
     border: 2px solid rgb(255,255,255);
 }
 
@@ -30,6 +83,91 @@ ul li{
     text-align: center;
     padding-top: 100px;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.contact{
+    padding-left: 3%;
+    padding-top: 225px;
+}
+
+.img{
+    position: absolute;
+    border: 3px solid #ffffff;
+    left: 80px;
+    top: 100px;
+}
+
+.staag{
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(255,255,255);
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.dagverslagen{
+    text-align: left;
+    padding-top: 20px;
+    color: white;
+    padding-left: 3%;
+    padding-right: 45%;
+}
+
+.reportage{
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(255,255,255);
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.laatste{
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(16, 77, 207);
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.Dag{}
+
+.huisstijl{
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.mail{
+    
+    padding-top: 20px;
+    color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.FAQ{
+    padding-top: 20px;
+    color: black;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.appli{
+    text-align: center;
+    color: white;
+}
+
+.caseStudy{
+    padding-top: 20px;
+    color: black;
+    padding-left: 25%;
+    padding-right: 5%;
+}
+
+.load{
+    padding-left: 0%;
 }
