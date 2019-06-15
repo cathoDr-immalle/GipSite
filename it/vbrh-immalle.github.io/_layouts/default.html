@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <link href="https://fonts.googleapis.com/css?family=Glegoo" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Glegoo', serif;
+    }
+    #content {
+      margin: 0 auto;
+    }
+    table {
+      background: #eee; 
+    }
+    tbody tr:nth-child(odd) {
+      background: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div id="content">
+    {{ content }}
+  </div>
+</body>
+</html>
